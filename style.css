@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.topo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(46, 42, 42);
+    align-items: center;
+    flex-direction: column;
+}
+
+.imagem-container {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem {
+    width: 80%;
+    height: 100%;
+}
+
+.baixo {
+    flex: 1;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+}
+
+.botao {
+    background-color: transparent;
+    cursor: pointer;
+    justify-content: center;
+    border: white 1px;
+}
+
+.botao img {
+    width: 60%;
+    height: 60%;
+}
+
+p{
+    font-size: 24px;
+    color: aliceblue;
+}
