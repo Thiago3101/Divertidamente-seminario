@@ -1,6 +1,6 @@
 const imagemAlegria = "./imagens/bob-esponja.jpg";
 const imagemAnsiedade = "./imagens/ansiedade-enem.jpg";
-const imagemInveja = "./imagens/inveja-exemplo.jpg";
+const imagemInveja = "./imagens/henry-cavill.jpg";
 const imagemMedo = "./imagens/TELA-AZUL.jpg";
 const imagemNojinho = "./imagens/she-hulk.jpeg";
 const imagemRaiva = "./imagens/aliexpress-taxas.jpg";
